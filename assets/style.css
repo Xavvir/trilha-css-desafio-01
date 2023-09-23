@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;700;900&display=swap');
+
+*{
+    margin: 0;
+}
+
+.logo{
+    height: 260px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #066d9a;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(2, 1, 10, 0.234), rgba(0, 0, 0, .8)), url(/assets/images/banner.png);
+    height: 605px;
+    width: 100%;
+    border-bottom: solid 1px #33A8DB;
+}
+
+.banner h1{
+    font-family: Raleway, sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    -webkit-background-clip: text;
+}
+
+.banner p {
+    font-family: Raleway, sans-serif;
+    word-spacing: 1px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.banner-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    height: 393px;
+    width: 510px;
+    flex-direction: column;
+}
+
+.botao{
+    font-family: Raleway regular 400;
+    text-transform: uppercase;
+    background: transparent;
+    color: transparent;
+    font-size: 16px;
+    padding: 19px 91px 19px 91px;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    -webkit-background-clip: text;
+}
+
+.botao:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+#course-content{
+    height: 500px;
+    gap: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+#course-content h2{
+    justify-content: center;
+    line-height: 37.57px;
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    font-size: 32px;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    -webkit-background-clip: text;
+}
+
+#course-content p{
+    width: 792px;
+    height: 38px;
+    color: white;
+}
+
+.modules-list{
+    color: white;
+}
+
+.module{
+    margin-bottom: 20px;
+    padding: 16px 127px 16px 127px;
+    text-align: center;
+    gap: 10px;
+    border: 1px;
+    background-color: rgba(37, 37, 37, 1);
+    border-radius: 57px;
+}
