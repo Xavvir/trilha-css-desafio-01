@@ -112,7 +112,6 @@
 }
 
 span {
-
     color: transparent;
     background: -webkit-linear-gradient(#33A8DB, #1472B7);
     -webkit-background-clip: text;
@@ -148,26 +147,38 @@ span {
 }
 
 #professional-challenges h2 {
-
+    display: flex;
+    align-self: center;
     text-transform: uppercase;
     padding-top: 80px;
     color: #33A8DB;
-    text-align: center;
     font-family: Raleway;
     font-size: 32px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: 6.08px;
 }
 
 #professional-challenges p {
+    margin-right: 310px;
+    margin-left: 310px;
+    display: flex;
+    justify-content: center;
     color: #FFF;
     text-align: center;
     font-family: Raleway;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     padding-bottom: 80px;
+}
+
+#professional-challenges img {
+    padding: 20px 420px 20px;
+    width: 659px;
+    height: 429px;
+}
+
+footer{
+    background-color: #066d9a;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%),
+    linear-gradient(0deg, rgba(10, 0, 48, 0.956), #000000);
 }
